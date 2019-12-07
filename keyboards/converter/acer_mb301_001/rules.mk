@@ -1,5 +1,5 @@
 # project specific files
-SRC =	led.c
+SRC =
 
 # GENERIC STM32F103C8T6 board - stm32duino bootloader
 #OPT_DEFS = -DCORTEX_VTOR_INIT=0x2000
@@ -52,4 +52,4 @@ COMMAND_ENABLE = yes    # Commands for debug and configuration
 SLEEP_LED_ENABLE = yes  # Breathing sleep LED during USB suspend
 NKRO_ENABLE = yes	    # USB Nkey Rollover
 #CUSTOM_MATRIX = yes 	# Custom matrix file
-MOUSEKEY_ENABLE = no
+#MOUSEKEY_ENABLE = no
