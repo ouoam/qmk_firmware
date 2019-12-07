@@ -25,9 +25,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /*   at most 32 characters or the ugly hack in usb_main.c borks */
 
 //  Modified by Xydane
-#define MANUFACTURER "OEM"
-#define PRODUCT "Acer keyboard"
-#define DESCRIPTION "Acer 75 percent keyboard"
+#define MANUFACTURER OEM
+#define PRODUCT Acer keyboard
+#define DESCRIPTION Acer 75 percent keyboard
 
 /* key matrix size */
 #define MATRIX_ROWS 8

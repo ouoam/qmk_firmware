@@ -53,5 +53,3 @@ SLEEP_LED_ENABLE = yes  # Breathing sleep LED during USB suspend
 NKRO_ENABLE = yes	    # USB Nkey Rollover
 #CUSTOM_MATRIX = yes 	# Custom matrix file
 MOUSEKEY_ENABLE = no
-
-ALLOW_WARNINGS = yes
