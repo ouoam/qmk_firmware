@@ -3,17 +3,19 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../../quantum/**",
+                "${workspaceFolder}/../../../tmk_core/**"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "/usr/bin/gcc",
+            "defines": [],
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
             "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "forcedInclude": [
+                "${workspaceFolder}/config.h",
+                "${workspaceFolder}/acer_mb301_001.h"
+            ]
         },
         {
             "name": "Win32",

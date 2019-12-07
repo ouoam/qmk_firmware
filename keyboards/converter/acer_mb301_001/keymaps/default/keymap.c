@@ -14,7 +14,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#ifndef __INTELLISENSE__
 #include QMK_KEYBOARD_H
+#endif
 
 
 // Each layer gets a name for readability, which is then used in the keymap matrix below.
